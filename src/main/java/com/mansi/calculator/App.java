@@ -14,7 +14,11 @@ public class App {
 		this.calculatorService = calculatorService;
 
 	}
-
+	/**
+	* if x==1 then do addition
+	* if x==2 then do multiplication
+	* else do division
+	*/
 	public double calculation(int x) {
 		double answer = 0.0;
 		if (x == 1) {
