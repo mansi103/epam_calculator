@@ -7,7 +7,6 @@ public class CalculatorImplementation implements CalculatorServices {
 
 	@Override
 	public double addition(double number1, double number2) {
-		// TODO Auto-generated method stub
 		double sumNumbers = 0;
 		sumNumbers = number1 + number2;
 		return sumNumbers;
@@ -15,7 +14,6 @@ public class CalculatorImplementation implements CalculatorServices {
 
 	@Override
 	public double multiplication(double number1, double number2) {
-		// TODO Auto-generated method stub
 		double productNumbers = 1;
 		productNumbers = number1 * number2;
 		return productNumbers;
@@ -23,7 +21,6 @@ public class CalculatorImplementation implements CalculatorServices {
 
 	@Override
 	public double division(double number1, double number2) {
-		// TODO Auto-generated method stub
 		Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 		double divisionResult = 0.0;
 
